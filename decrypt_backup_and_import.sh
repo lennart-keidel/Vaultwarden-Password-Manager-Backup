@@ -5,7 +5,7 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 
 path_vaultwarden_dir="$HOME/vaultwarden/data"
-file_name_vaultwarden_db_file="db_new.sqlite3"
+file_name_vaultwarden_db_file="db.sqlite3"
 current_path="$(dirname "$(realpath "$0")")"
 
 # change directory to script source
