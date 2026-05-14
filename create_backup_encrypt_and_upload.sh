@@ -7,7 +7,7 @@ NC='\033[0m' # No Color
 
 # move backup to current directory
 date_string="$(date '+%Y_%m_%d')"
-path_vaultwarden_dir="$HOME/vaultwarden_test/data"
+path_vaultwarden_dir="$HOME/vaultwarden/data"
 current_path="$(dirname "$(realpath "$0")")"
 backup_filename="backup_vaultwarden_$date_string.sqlite3"
 backup_filename_encrpyted="$backup_filename.age"
